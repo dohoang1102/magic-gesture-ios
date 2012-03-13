@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27CF9110150F8F9200730837 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CF910F150F8F9200730837 /* UIKit.framework */; };
+		27CF9112150F8F9200730837 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CF9111150F8F9200730837 /* Foundation.framework */; };
+		27CF9114150F8F9200730837 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CF9113150F8F9200730837 /* CoreGraphics.framework */; };
+		27CF911A150F8F9200730837 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27CF9118150F8F9200730837 /* InfoPlist.strings */; };
+		27CF911C150F8F9200730837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CF911B150F8F9200730837 /* main.m */; };
+		27CF9120150F8F9200730837 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CF911F150F8F9200730837 /* AppDelegate.m */; };
+		27CF9123150F8F9200730837 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CF9121150F8F9200730837 /* MainStoryboard.storyboard */; };
+		27CF9126150F8F9200730837 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CF9125150F8F9200730837 /* MainViewController.m */; };
+		27CF9129150F8F9200730837 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CF9128150F8F9200730837 /* FlipsideViewController.m */; };
+		27CF9131150F8F9200730837 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CF9130150F8F9200730837 /* SenTestingKit.framework */; };
+		27CF9132150F8F9200730837 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CF910F150F8F9200730837 /* UIKit.framework */; };
+		27CF9133150F8F9200730837 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CF9111150F8F9200730837 /* Foundation.framework */; };
+		27CF913B150F8F9200730837 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27CF9139150F8F9200730837 /* InfoPlist.strings */; };
+		27CF913E150F8F9200730837 /* magic_padTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CF913D150F8F9200730837 /* magic_padTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27CF9134150F8F9200730837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27CF9102150F8F9100730837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27CF910A150F8F9200730837;
+			remoteInfo = "magic-pad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27CF910B150F8F9200730837 /* magic-pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "magic-pad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27CF910F150F8F9200730837 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27CF9111150F8F9200730837 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27CF9113150F8F9200730837 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27CF9117150F8F9200730837 /* magic-pad-Info.plist */ = {isa = PBXFileReference; path = "magic-pad-Info.plist"; sourceTree = "<group>"; };
+		27CF9119150F8F9200730837 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27CF911B150F8F9200730837 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27CF911D150F8F9200730837 /* magic-pad-Prefix.pch */ = {isa = PBXFileReference; path = "magic-pad-Prefix.pch"; sourceTree = "<group>"; };
+		27CF911E150F8F9200730837 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		27CF911F150F8F9200730837 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27CF9122150F8F9200730837 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		27CF9124150F8F9200730837 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		27CF9125150F8F9200730837 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		27CF9127150F8F9200730837 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		27CF9128150F8F9200730837 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		27CF912F150F8F9200730837 /* magic-padTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "magic-padTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27CF9130150F8F9200730837 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		27CF9138150F8F9200730837 /* magic-padTests-Info.plist */ = {isa = PBXFileReference; path = "magic-padTests-Info.plist"; sourceTree = "<group>"; };
+		27CF913A150F8F9200730837 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27CF913C150F8F9200730837 /* magic_padTests.h */ = {isa = PBXFileReference; path = magic_padTests.h; sourceTree = "<group>"; };
+		27CF913D150F8F9200730837 /* magic_padTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = magic_padTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27CF9108150F8F9200730837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CF9110150F8F9200730837 /* UIKit.framework in Frameworks */,
+				27CF9112150F8F9200730837 /* Foundation.framework in Frameworks */,
+				27CF9114150F8F9200730837 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CF912B150F8F9200730837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CF9131150F8F9200730837 /* SenTestingKit.framework in Frameworks */,
+				27CF9132150F8F9200730837 /* UIKit.framework in Frameworks */,
+				27CF9133150F8F9200730837 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27CF9100150F8F9100730837 = {
+			isa = PBXGroup;
+			children = (
+				27CF9115150F8F9200730837 /* magic-pad */,
+				27CF9136150F8F9200730837 /* magic-padTests */,
+				27CF910E150F8F9200730837 /* Frameworks */,
+				27CF910C150F8F9200730837 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27CF910C150F8F9200730837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27CF910B150F8F9200730837 /* magic-pad.app */,
+				27CF912F150F8F9200730837 /* magic-padTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27CF910E150F8F9200730837 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27CF910F150F8F9200730837 /* UIKit.framework */,
+				27CF9111150F8F9200730837 /* Foundation.framework */,
+				27CF9113150F8F9200730837 /* CoreGraphics.framework */,
+				27CF9130150F8F9200730837 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27CF9115150F8F9200730837 /* magic-pad */ = {
+			isa = PBXGroup;
+			children = (
+				27CF911E150F8F9200730837 /* AppDelegate.h */,
+				27CF911F150F8F9200730837 /* AppDelegate.m */,
+				27CF9121150F8F9200730837 /* MainStoryboard.storyboard */,
+				27CF9124150F8F9200730837 /* MainViewController.h */,
+				27CF9125150F8F9200730837 /* MainViewController.m */,
+				27CF9127150F8F9200730837 /* FlipsideViewController.h */,
+				27CF9128150F8F9200730837 /* FlipsideViewController.m */,
+				27CF9116150F8F9200730837 /* Supporting Files */,
+			);
+			path = "magic-pad";
+			sourceTree = "<group>";
+		};
+		27CF9116150F8F9200730837 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27CF9117150F8F9200730837 /* magic-pad-Info.plist */,
+				27CF9118150F8F9200730837 /* InfoPlist.strings */,
+				27CF911B150F8F9200730837 /* main.m */,
+				27CF911D150F8F9200730837 /* magic-pad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27CF9136150F8F9200730837 /* magic-padTests */ = {
+			isa = PBXGroup;
+			children = (
+				27CF913C150F8F9200730837 /* magic_padTests.h */,
+				27CF913D150F8F9200730837 /* magic_padTests.m */,
+				27CF9137150F8F9200730837 /* Supporting Files */,
+			);
+			path = "magic-padTests";
+			sourceTree = "<group>";
+		};
+		27CF9137150F8F9200730837 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27CF9138150F8F9200730837 /* magic-padTests-Info.plist */,
+				27CF9139150F8F9200730837 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27CF910A150F8F9200730837 /* magic-pad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27CF9141150F8F9200730837 /* Build configuration list for PBXNativeTarget "magic-pad" */;
+			buildPhases = (
+				27CF9107150F8F9200730837 /* Sources */,
+				27CF9108150F8F9200730837 /* Frameworks */,
+				27CF9109150F8F9200730837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "magic-pad";
+			productName = "magic-pad";
+			productReference = 27CF910B150F8F9200730837 /* magic-pad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27CF912E150F8F9200730837 /* magic-padTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27CF9144150F8F9200730837 /* Build configuration list for PBXNativeTarget "magic-padTests" */;
+			buildPhases = (
+				27CF912A150F8F9200730837 /* Sources */,
+				27CF912B150F8F9200730837 /* Frameworks */,
+				27CF912C150F8F9200730837 /* Resources */,
+				27CF912D150F8F9200730837 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27CF9135150F8F9200730837 /* PBXTargetDependency */,
+			);
+			name = "magic-padTests";
+			productName = "magic-padTests";
+			productReference = 27CF912F150F8F9200730837 /* magic-padTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27CF9102150F8F9100730837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 27CF9105150F8F9100730837 /* Build configuration list for PBXProject "magic-pad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27CF9100150F8F9100730837;
+			productRefGroup = 27CF910C150F8F9200730837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27CF910A150F8F9200730837 /* magic-pad */,
+				27CF912E150F8F9200730837 /* magic-padTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27CF9109150F8F9200730837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CF911A150F8F9200730837 /* InfoPlist.strings in Resources */,
+				27CF9123150F8F9200730837 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CF912C150F8F9200730837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CF913B150F8F9200730837 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27CF912D150F8F9200730837 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27CF9107150F8F9200730837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CF911C150F8F9200730837 /* main.m in Sources */,
+				27CF9120150F8F9200730837 /* AppDelegate.m in Sources */,
+				27CF9126150F8F9200730837 /* MainViewController.m in Sources */,
+				27CF9129150F8F9200730837 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CF912A150F8F9200730837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CF913E150F8F9200730837 /* magic_padTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27CF9135150F8F9200730837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27CF910A150F8F9200730837 /* magic-pad */;
+			targetProxy = 27CF9134150F8F9200730837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27CF9118150F8F9200730837 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27CF9119150F8F9200730837 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27CF9121150F8F9200730837 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27CF9122150F8F9200730837 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		27CF9139150F8F9200730837 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27CF913A150F8F9200730837 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27CF913F150F8F9200730837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		27CF9140150F8F9200730837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27CF9142150F8F9200730837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magic-pad/magic-pad-Prefix.pch";
+				INFOPLIST_FILE = "magic-pad/magic-pad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27CF9143150F8F9200730837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magic-pad/magic-pad-Prefix.pch";
+				INFOPLIST_FILE = "magic-pad/magic-pad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		27CF9145150F8F9200730837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/magic-pad.app/magic-pad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magic-pad/magic-pad-Prefix.pch";
+				INFOPLIST_FILE = "magic-padTests/magic-padTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		27CF9146150F8F9200730837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/magic-pad.app/magic-pad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magic-pad/magic-pad-Prefix.pch";
+				INFOPLIST_FILE = "magic-padTests/magic-padTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27CF9105150F8F9100730837 /* Build configuration list for PBXProject "magic-pad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CF913F150F8F9200730837 /* Debug */,
+				27CF9140150F8F9200730837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27CF9141150F8F9200730837 /* Build configuration list for PBXNativeTarget "magic-pad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CF9142150F8F9200730837 /* Debug */,
+				27CF9143150F8F9200730837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27CF9144150F8F9200730837 /* Build configuration list for PBXNativeTarget "magic-padTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CF9145150F8F9200730837 /* Debug */,
+				27CF9146150F8F9200730837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27CF9102150F8F9100730837 /* Project object */;
+}
